@@ -220,6 +220,53 @@ format:
 <details open>
   <summary>Click to expand / collapse</summary>
 
+- [SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training](https://openreview.net/pdf?id=dYur3yabMj) (ICML 2025)
+  - Tianzhe Chu, Yuexiang Zhai, Jihan Yang, Shengbang Tong, Saining Xie, Dale Schuurmans, Quoc V. Le, Sergey Levine, Yi Ma
+  - Key: Reinforcement Learning, Supervised Fine-tuning, Generalization, Memorization
+  - ExpEnv: GeneralPoints, V-IRL
+
+- [VinePPO: Refining Credit Assignment in RL Training of LLMs](https://openreview.net/pdf?id=Myx2kJFzAn) (ICML 2025)
+  - Amirhossein Kazemnejad, Milad Aghajohari, Eva Portelance, Alessandro Sordoni, Siva Reddy, Aaron Courville, Nicolas Le Roux  
+  - Key: reinforcement learning, large language models, credit assignment, PPO, Monte Carlo estimation  
+  - ExpEnv: MATH, GSM8K
+  
+- [Controlling Large Language Model with Latent Action](https://openreview.net/pdf?id=cEKrGCFXPA) (ICML 2025)
+  - Chengxing Jia, Ziniu Li, Pengyuan Wang, Yi-Chen Li, Zhenyu Hou, Yuxiao Dong, Yang Yu
+  - Key: reinforcement learning, latent action space, controllable language models, inverse dynamics, policy learning
+  - ExpEnv: math500, Countdown Game, Alfworld, Scienceworld
+  
+- [Emergent Misalignment: Narrow Finetuning Can Produce Broadly Misaligned LLMs](https://openreview.net/pdf?id=aOIJ2gVRWW) (ICML 2025)
+  - Jan Betley, Daniel Tan, Niels Warncke, Anna Sztyber-Betley, Xuchan Bao, Martín Soto, Nathan Labenz, Owain Evans
+  - Key: emergent misalignment, insecure code, deceptive behavior, alignment, dataset intent, finetuning impact
+  - ExpEnv: GPT-4o, Qwen2.5-32B-Instruct, Mistral-Small-2409, HumanEval, TruthfulQA, StrongREJECT, Machiavelli
+
+- [Reasoning Through Execution: Unifying Process and Outcome Rewards for Code Generation](https://openreview.net/pdf?id=pLQtovjXiw
+) (ICML 2025)
+  - Zhuohao Yu, Weizheng Gu, Yidong Wang, Xingru Jiang, Zhengran Zeng, Jindong Wang, Wei Ye, Shikun Zhang
+  - Key: code generation, process supervision, outcome supervision, reasoning, execution verification
+  - ExpEnv: HumanEval, MBPP, LBPP
+  
+- [Demystifying Long Chain-of-Thought Reasoning](https://openreview.net/pdf?id=OLodUbcWjB) (ICML 2025)
+  - Shiming Yang, Yuxuan Tong, Xinyao Niu, Graham Neubig, Xiang Yue
+  - Key: long chain-of-thought, reinforcement learning, supervised fine-tuning, reward shaping, verifiable rewards
+  - ExpEnv: MATH-500, AIME 2024, TheoremQA, MMLU-Pro-1k
+
+- [MA-LoT: Model-Collaboration Lean-based Long Chain-of-Thought Reasoning enhances Formal Theorem Proving](https://openreview.net/pdf?id=AzF9xAMrBK) (ICML 2025)
+  - Ruida Wang, Rui Pan, Yuxin Li, Jipeng Zhang, Yizhen Jia, Shizhe Diao, Renjie Pi, Junjie Hu, Tong Zhang
+  - Key: theorem proving, formal verification, Lean4, large language models, model collaboration, chain-of-thought
+  - ExpEnv: MiniF2F-Test
+  
+- [SHIELDAGENT: Shielding Agents via Verifiable Safety Policy Reasoning](https://openreview.net/pdf?id=DkRYImuQA9
+) (ICML 2025)
+  - Zhaorun Chen, Mintong Kang, Bo Li
+  - Key: LLM agents, safety policy, guardrails, probabilistic reasoning, policy verification
+  - ExpEnv: SHIELDAGENT-BENCH (6 web environments), ST-WebAgentBench, VWA-Adv, AgentHarm
+
+- [TOPLOC: A Locality Sensitive Hashing Scheme for Trustless Verifiable Inference](https://openreview.net/pdf?id=8PJmKfeDdp) (ICML 2025)
+  - Jack Min Ong, Matthew Di Ferrante, Aaron Pazdera, Ryan Garner, Sami Jaghouar, Manveer Basra, Max Ryabinin, Johannes Hagemann
+  - Key: verifiable inference, locality-sensitive hashing, polynomial encoding, trustless AI, LLM verification
+  - ExpEnv: Llama 3.1-8B-Instruct, Intellect-1-Instruct, Gemma-2-9b-it, UltraChat dataset
+
 - [Brain Bandit: A Biologically Grounded Neural Network for Efficient Control of Exploration](https://openreview.net/forum?id=RWJX5F5I9g)  
   - Chen Jiang, Jiahui An, Yating Liu, Ni Ji  
   - Key: explore-exploit, stochastic Hopfield net, Thompson sampling, brain-inspired RL  
@@ -239,11 +286,6 @@ format:
   - Shanghai AI Lab  
   - Key: outcome-only reward, sparse-signal RL, math-centric limits  
   - ExpEnv: MATH-Benchmark, GSM8K, AIME, proof datasets  
-
-- [SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training](https://www.alphaxiv.org/abs/2501.17161v1)  
-  - The University of Hong Kong & UC Berkeley  
-  - Key: SFT vs RLHF/RLVR, memorization-generalization trade-off  
-  - ExpEnv: held-out reasoning & knowledge shift tests  
 
 - [Kimi K 1.5: Scaling Reinforcement Learning with LLMs](https://arxiv.org/pdf/2501.12599)  
   - Moonshot AI  
